@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+
+
+header{
+	width: 100%;
+	background: #ffffff;
+	height: 80px;
+    background: url(img/Logo.jpg) no-repeat;
+    background-size: 10vw 10vh;
+    margin-bottom: -30px;
+}
+
+
+.title{
+	font-size: 36px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+.menu{
+	list-style: none;
+	position: absolute;
+	top: 10px;
+	right: 100px;
+    text-align: center;
+    
+}
+
+
+a {text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    padding:0px 15px;
+    line-height:50px; /*ровняем меню по вертикали*/
+    font-size: 25px;
+    
+    
+}
+
+li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    position:relative; /*задаем позицию для позиционирования*/
+    
+    margin-top: -18px;}
+    
+
+    li{
+        font-size: 1em; /* Размер шрифта */
+        color: #5a5a5a; /* Цвет заголовка */
+        text-align: center; /* Текст по центру */
+    }
+    /*  CSS код для линии над заголовком */
+    li:before {
+        content: '';
+        display: block;
+        height: 1px; /* Высота линии */
+        background: #f66d52; /* Цвет линии */
+        width: 150px; /* Ширина линии до наведения */
+        margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
+        transition: 1s; /* Время, за которое линия возвращается после наведения */
+    }
+    li:hover:before {
+        width: 250px; /* Ширина линии при наведении */
+        transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+    }
+    /*  CSS код для линии под заголовком */
+    li:after {
+        content: '';
+        display: block;
+        height: 1px; /* Высота линии */
+        background: #f66d52; /* Цвет линии */
+        width: 150px; /* Ширина линии до наведения */
+        margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+        transition: 1s; /* Время, за которое линия возвращается после наведения */
+    }
+    li:hover:after {
+        width: 250px; /* Ширина линии при наведении */
+        transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+    }
+
+    
+.NSK-Region{
+    background-color:#aaa8a8; 
+    
+}
+
+  
+.def {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 25px;
+    color: #ffffff;
+}
+
+.container div {
+   
+    margin-bottom: 15px;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top: 17px; 
+    
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin-top: -25px;
+  }
+
+  .info{
+    width: 1000px;
+    height: 670px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 270px;
+  margin-top: 100px;
+  padding-bottom: -100px;
+  
+  }
+
+  .inform{
+    width: 200px;
+    height: 700px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 25px;
+    color: #9c9a9a;
+    background-color:#fdfdfd; 
+    margin-left: 70px;
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+position:relative
+
+  }
+
+  .inform:hover{
+    margin-top:-20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    }
+
+  p4{
+    font-size: 26px;
+  }
+
+
+  button{
+    width: 200px;
+    height: 50px;
+  }
+  button {
+    border: none;
+    background: #ff0000;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+    margin-top: auto;
+    position:absolute; bottom:0;
+    right: 0px;
+  }
+  
+  button:hover {
+    background: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+    margin-top: auto
+  }
+
+  
+  
